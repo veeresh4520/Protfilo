@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
@@ -48,6 +48,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#certificates">Certificates</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
                 </ul>
                 <div class="social-icons">
                     <a href="https://www.linkedin.com/in/veeresh-yadav-a469a0374/" target="_blank" title="LinkedIn">
@@ -63,6 +66,12 @@
                         <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" style="width:50px; height:50px; filter: invert(1);">
                     </a>
                 </div>
+                <div class="d-flex align-items-center ms-lg-3 mt-3 mt-lg-0 justify-content-center">
+                    <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle Theme" title="Toggle Day/Night Mode">
+                        <i class="bi bi-sun-fill theme-icon-sun"></i>
+                        <i class="bi bi-moon-stars-fill theme-icon-moon" style="display: none;"></i>
+                    </button>
+                </div>
             </div>
         </div>
     </nav>
@@ -73,9 +82,14 @@
             <div class="header-container">
                 <h1 class="display-4">VEERESH YADAV</h1>
                 <p class="lead">ECE Student | AI Enthusiast </p>
+                <div class="hero-actions">
+                    <a href="assets/docs/Resume (3).pdf" download="Veeresh_Yadav_Resume.pdf" class="btn-hero-resume">
+                        <i class="bi bi-download me-2"></i>Download Resume
+                    </a>
+                </div>
             </div>
             <div class="hero-image-wrap">
-                <img src="profile.jpg" class="hero-image" alt="Veeresh Yadav">
+                <img src="assets/images/profile.jpg" class="hero-image" alt="Veeresh Yadav">
             </div>
         </div>
     </section>
@@ -98,7 +112,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-4">
                     <div class="skill-card education-card reveal delay-1">
-                        <img src="KLH.jpg" alt="KL University logo" class="education-logo">
+                        <img src="assets/images/KLH.jpg" alt="KL University logo" class="education-logo">
                         <div class="education-details">
                             <h4>KL UNIVERSITY</h4>
                             <p>B.Tech (ECE) 2025 – 2029</p>
@@ -108,7 +122,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="skill-card education-card reveal delay-2">
-                        <img src="Narayana.jpg" alt="Narayana Junior College logo" class="education-logo">
+                        <img src="assets/images/Narayana.jpg" alt="Narayana Junior College logo" class="education-logo">
                         <div class="education-details">
                             <h4>NARAYANA JUNIOR COLLEGE</h4>
                             <p>IPE: 98.2%</p>
@@ -117,7 +131,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="skill-card education-card reveal delay-3">
-                        <img src="NBHS.jpg" alt="N.B.H School logo" class="education-logo">
+                        <img src="assets/images/NBHS.jpg" alt="N.B.H School logo" class="education-logo">
                         <div class="education-details">
                             <h4>N.B.H SCHOOL</h4>
                             <p>SSC Boards 80%</p>
@@ -667,9 +681,9 @@
                             <div class="row justify-content-center">
                                 <!-- Certificate 1 -->
                                 <div class="col-md-4 mb-4">
-                                    <a href="GoogleAIEssential.png" class="certificate-link" data-src="GoogleAIEssential.png">
+                                    <a href="assets/certificates/GoogleAIEssential.png" class="certificate-link" data-src="assets/certificates/GoogleAIEssential.png">
                                         <div class="certificate-card">
-                                            <img src="GoogleAIEssential.png" class="img-fluid" alt="Google AI Essentials Certificate">
+                                            <img src="assets/certificates/GoogleAIEssential.png" class="img-fluid" alt="Google AI Essentials Certificate">
                                             <div class="certificate-overlay">
                                                 <span class="certificate-view-btn">View</span>
                                             </div>
@@ -682,9 +696,9 @@
                                 </div>
                                 <!-- Certificate 2 -->
                                 <div class="col-md-4 mb-4">
-                                    <a href="Coursera_1.png" class="certificate-link" data-src="Coursera_1.png">
+                                    <a href="assets/certificates/Coursera_1.png" class="certificate-link" data-src="assets/certificates/Coursera_1.png">
                                         <div class="certificate-card">
-                                            <img src="Coursera_1.png" class="img-fluid" alt="Coursera Certificate 1">
+                                            <img src="assets/certificates/Coursera_1.png" class="img-fluid" alt="Coursera Certificate 1">
                                             <div class="certificate-overlay">
                                                 <span class="certificate-view-btn">View</span>
                                             </div>
@@ -697,9 +711,9 @@
                                 </div>
                                 <!-- Certificate 3 -->
                                 <div class="col-md-4 mb-4">
-                                    <a href="Coursera_2.png" class="certificate-link" data-src="Coursera_2.png">
+                                    <a href="assets/certificates/Coursera_2.png" class="certificate-link" data-src="assets/certificates/Coursera_2.png">
                                         <div class="certificate-card">
-                                            <img src="Coursera_2.png" class="img-fluid" alt="Coursera Certificate 2">
+                                            <img src="assets/certificates/Coursera_2.png" class="img-fluid" alt="Coursera Certificate 2">
                                             <div class="certificate-overlay">
                                                 <span class="certificate-view-btn">View</span>
                                             </div>
@@ -718,9 +732,9 @@
                             <div class="row justify-content-center">
                                 <!-- Certificate 4 -->
                                 <div class="col-md-4 mb-4">
-                                    <a href="Coursera_3.png" class="certificate-link" data-src="Coursera_3.png">
+                                    <a href="assets/certificates/Coursera_3.png" class="certificate-link" data-src="assets/certificates/Coursera_3.png">
                                         <div class="certificate-card">
-                                            <img src="Coursera_3.png" class="img-fluid" alt="Coursera Certificate 3">
+                                            <img src="assets/certificates/Coursera_3.png" class="img-fluid" alt="Coursera Certificate 3">
                                             <div class="certificate-overlay">
                                                 <span class="certificate-view-btn">View</span>
                                             </div>
@@ -733,9 +747,9 @@
                                 </div>
                                 <!-- Certificate 5 -->
                                 <div class="col-md-4 mb-4">
-                                    <a href="Coursera_4.png" class="certificate-link" data-src="Coursera_4.png">
+                                    <a href="assets/certificates/Coursera_4.png" class="certificate-link" data-src="assets/certificates/Coursera_4.png">
                                         <div class="certificate-card">
-                                            <img src="Coursera_4.png" class="img-fluid" alt="Coursera Certificate 4">
+                                            <img src="assets/certificates/Coursera_4.png" class="img-fluid" alt="Coursera Certificate 4">
                                             <div class="certificate-overlay">
                                                 <span class="certificate-view-btn">View</span>
                                             </div>
@@ -748,9 +762,9 @@
                                 </div>
                                 <!-- Certificate 6 -->
                                 <div class="col-md-4 mb-4">
-                                    <a href="Fluency.png" class="certificate-link" data-src="Fluency.png">
+                                    <a href="assets/certificates/Fluency.png" class="certificate-link" data-src="assets/certificates/Fluency.png">
                                         <div class="certificate-card">
-                                            <img src="Fluency.png" class="img-fluid" alt="Fluency Certificate">
+                                            <img src="assets/certificates/Fluency.png" class="img-fluid" alt="Fluency Certificate">
                                             <div class="certificate-overlay">
                                                 <span class="certificate-view-btn">View</span>
                                             </div>
@@ -769,9 +783,9 @@
                             <div class="row justify-content-center">
                                 <!-- Certificate 7 -->
                                 <div class="col-md-4 mb-4">
-                                    <a href="Harvard.jpg" class="certificate-link" data-src="Harvard.jpg">
+                                    <a href="assets/certificates/Harvard.jpg" class="certificate-link" data-src="assets/certificates/Harvard.jpg">
                                         <div class="certificate-card">
-                                            <img src="Harvard.jpg" class="img-fluid" alt="Harvard Certificate">
+                                            <img src="assets/certificates/Harvard.jpg" class="img-fluid" alt="Harvard Certificate">
                                             <div class="certificate-overlay">
                                                 <span class="certificate-view-btn">View</span>
                                             </div>
@@ -784,9 +798,9 @@
                                 </div>
                                 <!-- Certificate 8 -->
                                 <div class="col-md-4 mb-4">
-                                    <a href="GenAi.jpg" class="certificate-link" data-src="GenAi.jpg">
+                                    <a href="assets/certificates/GenAi.jpg" class="certificate-link" data-src="assets/certificates/GenAi.jpg">
                                         <div class="certificate-card">
-                                            <img src="GenAi.jpg" class="img-fluid" alt="Generative AI Certificate">
+                                            <img src="assets/certificates/GenAi.jpg" class="img-fluid" alt="Generative AI Certificate">
                                             <div class="certificate-overlay">
                                                 <span class="certificate-view-btn">View</span>
                                             </div>
@@ -811,6 +825,46 @@
             </div>
             <div class="text-center mt-4 reveal">
                 <a href="certificate.html" class="btn btn-primary">View All Certificates</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section class="contact-section py-5" id="contact">
+        <div class="container">
+            <div class="contact-card reveal">
+                <h2 class="section-title text-center mb-2">Contact Me</h2>
+                <p class="text-center text-muted mb-4" style="font-size: 0.9rem; letter-spacing: 0.05em;">
+                    Have a question, proposal, or project in mind? Send me a message below!
+                </p>
+                <form id="contactForm" action="https://formspree.io/f/veereshyadav74103@gmail.com" method="POST" class="contact-form mx-auto" style="max-width: 680px;">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="contactName" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="contactName" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="contactEmail" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="contactEmail" name="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="col-12">
+                            <label for="contactSubject" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="contactSubject" name="subject" placeholder="Project Inquiry / Collaboration" required>
+                        </div>
+                        <div class="col-12">
+                            <label for="contactMessage" class="form-label">Message</label>
+                            <textarea class="form-control" id="contactMessage" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                        </div>
+                        <div class="col-12 text-center mt-4">
+                            <button type="submit" class="btn btn-submit-contact">
+                                <span>Send Message ✉️</span>
+                            </button>
+                        </div>
+                        <div class="col-12">
+                            <div id="contactFormStatus" class="form-status-msg text-center mt-3" style="display: none;"></div>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
@@ -904,6 +958,85 @@
                 revealObserver.observe(el);
             });
         });
+    </script>
+
+    <script>
+        // Day / Night Theme Toggle Logic
+        const themeToggle = document.getElementById('themeToggle');
+        const sunIcon = themeToggle?.querySelector('.theme-icon-sun');
+        const moonIcon = themeToggle?.querySelector('.theme-icon-moon');
+
+        function setTheme(theme) {
+            if (theme === 'dark') {
+                document.body.classList.add('dark-theme');
+                if (sunIcon && moonIcon) {
+                    sunIcon.style.display = 'none';
+                    moonIcon.style.display = 'inline-block';
+                }
+            } else {
+                document.body.classList.remove('dark-theme');
+                if (sunIcon && moonIcon) {
+                    sunIcon.style.display = 'inline-block';
+                    moonIcon.style.display = 'none';
+                }
+            }
+            localStorage.setItem('portfolio-theme', theme);
+        }
+
+        const savedTheme = localStorage.getItem('portfolio-theme') || 'light';
+        setTheme(savedTheme);
+
+        if (themeToggle) {
+            themeToggle.addEventListener('click', () => {
+                const isDark = document.body.classList.contains('dark-theme');
+                setTheme(isDark ? 'light' : 'dark');
+            });
+        }
+
+        // Contact Form Direct Submission to Email Logic
+        const contactForm = document.getElementById('contactForm');
+        const contactFormStatus = document.getElementById('contactFormStatus');
+
+        if (contactForm) {
+            contactForm.addEventListener('submit', async function(e) {
+                e.preventDefault();
+                const submitBtn = contactForm.querySelector('button[type="submit"]');
+                const originalBtnContent = submitBtn.innerHTML;
+                submitBtn.innerHTML = '<span>Sending... ⏳</span>';
+                submitBtn.disabled = true;
+
+                const formData = new FormData(contactForm);
+                try {
+                    const response = await fetch(contactForm.action, {
+                        method: 'POST',
+                        body: formData,
+                        headers: { 'Accept': 'application/json' }
+                    });
+
+                    if (response.ok) {
+                        contactFormStatus.style.display = 'block';
+                        contactFormStatus.className = 'form-status-msg text-center mt-3 text-success';
+                        contactFormStatus.innerHTML = '✅ Message sent successfully to veereshyadav74103@gmail.com!';
+                        contactForm.reset();
+                    } else {
+                        throw new Error('Direct submission failed');
+                    }
+                } catch (err) {
+                    const name = encodeURIComponent(formData.get('name') || '');
+                    const email = encodeURIComponent(formData.get('email') || '');
+                    const subject = encodeURIComponent(formData.get('subject') || 'Portfolio Contact');
+                    const message = encodeURIComponent(`From: ${name} (${email})\n\n${formData.get('message') || ''}`);
+                    window.location.href = `mailto:veereshyadav74103@gmail.com?subject=${subject}&body=${message}`;
+                    
+                    contactFormStatus.style.display = 'block';
+                    contactFormStatus.className = 'form-status-msg text-center mt-3 text-info';
+                    contactFormStatus.innerHTML = '📬 Opening mail app to send directly to veereshyadav74103@gmail.com...';
+                } finally {
+                    submitBtn.innerHTML = originalBtnContent;
+                    submitBtn.disabled = false;
+                }
+            });
+        }
     </script>
 
 </body>
