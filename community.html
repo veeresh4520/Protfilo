@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events | Veeresh Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h2>Veeresh Portfolio</h2>
+            <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle Theme" title="Toggle Day/Night Mode">
+                <i class="bi bi-sun-fill theme-icon-sun"></i>
+                <i class="bi bi-moon-stars-fill theme-icon-moon" style="display: none;"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main class="py-5">
+        <div class="container">
+            <div class="heading-with-back position-relative mb-5 text-center">
+                <a href="index.html#events" class="back-arrow-btn" title="Previous Page">
+                    <i class="bi bi-arrow-left"></i>
+                </a>
+                <h1 class="section-title text-center m-0">Events &amp; Hackathons</h1>
+            </div>
+
+            <div class="row mt-5">
+                <!-- Hackathons Column -->
+                <div class="col-md-6 mb-5">
+                    <h3 class="events-column-title"><i class="bi bi-trophy me-2"></i>Hackathons</h3>
+                    <div class="timeline">
+                        <div class="timeline-item event-trigger" data-title="DSA (offline) Hackathon - 24 hrs" data-date="19-06-2026" data-venue="KL University" data-desc="Intense 24-hour algorithmic problem-solving hackathon at KL University testing advanced Data Structures &amp; Algorithms implementation.">
+                            <div class="timeline-dot"></div>
+                            <span class="timeline-date">19-06-2026</span>
+                            <h5 class="timeline-title">DSA (offline) Hackathon - 24 hrs</h5>
+                            <p class="timeline-meta"><i class="bi bi-geo-alt me-1"></i>KL University</p>
+                            <button class="see-details-btn" type="button" data-bs-toggle="collapse" data-bs-target="#h-detail-1" aria-expanded="false">
+                                SEE DETAILS <i class="bi bi-chevron-right ms-1"></i>
+                            </button>
+                            <div class="collapse event-details-collapse" id="h-detail-1">
+                                <p class="mb-0">Intense 24-hour algorithmic problem-solving hackathon at KL University testing advanced Data Structures &amp; Algorithms implementation.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item event-trigger" data-title="DSA (offline) Hackathon - 24 hrs" data-date="28-03-2026" data-venue="KL University" data-desc="24-hour competitive programming competition focused on efficient graph algorithms, dynamic programming, and tree operations.">
+                            <div class="timeline-dot"></div>
+                            <span class="timeline-date">28-03-2026</span>
+                            <h5 class="timeline-title">DSA (offline) Hackathon - 24 hrs</h5>
+                            <p class="timeline-meta"><i class="bi bi-geo-alt me-1"></i>KL University</p>
+                            <button class="see-details-btn" type="button" data-bs-toggle="collapse" data-bs-target="#h-detail-2" aria-expanded="false">
+                                SEE DETAILS <i class="bi bi-chevron-right ms-1"></i>
+                            </button>
+                            <div class="collapse event-details-collapse" id="h-detail-2">
+                                <p class="mb-0">24-hour competitive programming competition focused on efficient graph algorithms, dynamic programming, and tree operations.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item event-trigger" data-title="AlgoMath Datathon - 24 hrs" data-date="07-02-2026" data-venue="KL University" data-desc="Data science and mathematical modeling hackathon tackling complex optimization problems and analytical algorithm challenges.">
+                            <div class="timeline-dot"></div>
+                            <span class="timeline-date">07-02-2026</span>
+                            <h5 class="timeline-title">AlgoMath Datathon - 24 hrs</h5>
+                            <p class="timeline-meta"><i class="bi bi-geo-alt me-1"></i>KL University</p>
+                            <button class="see-details-btn" type="button" data-bs-toggle="collapse" data-bs-target="#h-detail-3" aria-expanded="false">
+                                SEE DETAILS <i class="bi bi-chevron-right ms-1"></i>
+                            </button>
+                            <div class="collapse event-details-collapse" id="h-detail-3">
+                                <p class="mb-0">Data science and mathematical modeling hackathon tackling complex optimization problems and analytical algorithm challenges.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item event-trigger" data-title="Java (offline) Hackathon - 24 hrs" data-date="17-12-2025" data-venue="KL University" data-desc="24-hour Java application development hackathon building robust object-oriented backend solutions.">
+                            <div class="timeline-dot"></div>
+                            <span class="timeline-date">17-12-2025</span>
+                            <h5 class="timeline-title">Java (offline) Hackathon - 24 hrs</h5>
+                            <p class="timeline-meta"><i class="bi bi-geo-alt me-1"></i>KL University</p>
+                            <button class="see-details-btn" type="button" data-bs-toggle="collapse" data-bs-target="#h-detail-4" aria-expanded="false">
+                                SEE DETAILS <i class="bi bi-chevron-right ms-1"></i>
+                            </button>
+                            <div class="collapse event-details-collapse" id="h-detail-4">
+                                <p class="mb-0">24-hour Java application development hackathon building robust object-oriented backend solutions.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item event-trigger" data-title="ECE Hackathon" data-date="28-11-2025" data-venue="KL University" data-desc="Hardware and embedded software hackathon combining microcontroller programming with real-time electronic signal processing.">
+                            <div class="timeline-dot"></div>
+                            <span class="timeline-date">28-11-2025</span>
+                            <h5 class="timeline-title">ECE Hackathon</h5>
+                            <p class="timeline-meta"><i class="bi bi-geo-alt me-1"></i>KL University</p>
+                            <button class="see-details-btn" type="button" data-bs-toggle="collapse" data-bs-target="#h-detail-5" aria-expanded="false">
+                                SEE DETAILS <i class="bi bi-chevron-right ms-1"></i>
+                            </button>
+                            <div class="collapse event-details-collapse" id="h-detail-5">
+                                <p class="mb-0">Hardware and embedded software hackathon combining microcontroller programming with real-time electronic signal processing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Workshops & Seminars Column -->
+                <div class="col-md-6">
+                    <h3 class="events-column-title"><i class="bi bi-people me-2"></i>Workshops &amp; Seminars</h3>
+                    <div class="timeline">
+                        <div class="timeline-item event-trigger" data-title="The Future of Intelligent Systems" data-date="26-07-2026" data-venue="Indian Data Club" data-desc="From Knowledge Graphs to AI Agents: The Future of Intelligent Systems. The session will introduce the fundamentals of graph technology, real-world enterprise use cases, and how GraphRAG is enabling more accurate and context-aware AI agents. Session topics: Introduction to Graph Databases &amp; Knowledge Graphs; Building AI Agents with GraphRAG; Real-world Enterprise Use Cases; Q&amp;A and Networking.">
+                            <div class="timeline-dot"></div>
+                            <span class="timeline-date">26-07-2026</span>
+                            <h5 class="timeline-title">The Future of Intelligent Systems</h5>
+                            <p class="timeline-meta"><i class="bi bi-building me-1"></i>Indian Data Club</p>
+                            <button class="see-details-btn" type="button" data-bs-toggle="collapse" data-bs-target="#ws-detail-1" aria-expanded="false">
+                                SEE DETAILS <i class="bi bi-chevron-right ms-1"></i>
+                            </button>
+                            <div class="collapse event-details-collapse" id="ws-detail-1">
+                                <p class="mb-0">From Knowledge Graphs to AI Agents: The Future of Intelligent Systems. The session will introduce the fundamentals of graph technology, real-world enterprise use cases, and how GraphRAG is enabling more accurate and context-aware AI agents. Session topics: Introduction to Graph Databases &amp; Knowledge Graphs; Building AI Agents with GraphRAG; Real-world Enterprise Use Cases; Q&amp;A and Networking.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item event-trigger" data-title="Navigating Careers in the AI &amp; Digital Era" data-date="18-07-2026" data-venue="Indian Data Club" data-desc="An insightful seminar by Indian Data Club covering how to navigate career paths in the rapidly evolving AI and digital landscape. Industry experts shared strategies for skill development, networking, and staying relevant in the age of AI.">
+                            <div class="timeline-dot"></div>
+                            <span class="timeline-date">18-07-2026</span>
+                            <h5 class="timeline-title">Navigating Careers in the AI &amp; Digital Era</h5>
+                            <p class="timeline-meta"><i class="bi bi-building me-1"></i>Indian Data Club</p>
+                            <button class="see-details-btn" type="button" data-bs-toggle="collapse" data-bs-target="#ws-detail-2" aria-expanded="false">
+                                SEE DETAILS <i class="bi bi-chevron-right ms-1"></i>
+                            </button>
+                            <div class="collapse event-details-collapse" id="ws-detail-2">
+                                <p class="mb-0">An insightful seminar by Indian Data Club covering how to navigate career paths in the rapidly evolving AI and digital landscape. Industry experts shared strategies for skill development, networking, and staying relevant in the age of AI.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item event-trigger" data-title="DevAgentic 1.0 Workshop" data-date="11-07-2026" data-venue="MatriXO" data-desc="DevAgentic 1.0 was a hands-on workshop by MatriXO exploring agentic AI systems and autonomous workflows. Participants gained practical exposure to building agent-based solutions using modern AI frameworks.">
+                            <div class="timeline-dot"></div>
+                            <span class="timeline-date">11-07-2026</span>
+                            <h5 class="timeline-title">DevAgentic 1.0 Workshop</h5>
+                            <p class="timeline-meta"><i class="bi bi-building me-1"></i>MatriXO</p>
+                            <button class="see-details-btn" type="button" data-bs-toggle="collapse" data-bs-target="#ws-detail-3" aria-expanded="false">
+                                SEE DETAILS <i class="bi bi-chevron-right ms-1"></i>
+                            </button>
+                            <div class="collapse event-details-collapse" id="ws-detail-3">
+                                <p class="mb-0">DevAgentic 1.0 was a hands-on workshop by MatriXO exploring agentic AI systems and autonomous workflows. Participants gained practical exposure to building agent-based solutions using modern AI frameworks.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item event-trigger" data-title="Gemma 4 Workshop" data-date="29-05-2026" data-venue="GDG Hyd" data-desc="An interactive workshop hosted by Google Developer Group Hyderabad on Gemma 4 open-weights model architecture, fine-tuning techniques, and deployment.">
+                            <div class="timeline-dot"></div>
+                            <span class="timeline-date">29-05-2026</span>
+                            <h5 class="timeline-title">Gemma 4 Workshop</h5>
+                            <p class="timeline-meta"><i class="bi bi-building me-1"></i>GDG Hyd</p>
+                            <button class="see-details-btn" type="button" data-bs-toggle="collapse" data-bs-target="#ws-detail-4" aria-expanded="false">
+                                SEE DETAILS <i class="bi bi-chevron-right ms-1"></i>
+                            </button>
+                            <div class="collapse event-details-collapse" id="ws-detail-4">
+                                <p class="mb-0">An interactive workshop hosted by Google Developer Group Hyderabad on Gemma 4 open-weights model architecture, fine-tuning techniques, and deployment.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item event-trigger" data-title="Gen AI Workshop - BITS Hyd" data-date="05-04-2026" data-venue="Techgyan" data-desc="Hands-on generative AI masterclass covering LLM prompting, RAG architectures, and building web apps using generative AI tools at BITS Hyderabad.">
+                            <div class="timeline-dot"></div>
+                            <span class="timeline-date">05-04-2026</span>
+                            <h5 class="timeline-title">Gen AI Workshop - BITS Hyd</h5>
+                            <p class="timeline-meta"><i class="bi bi-building me-1"></i>Techgyan</p>
+                            <button class="see-details-btn" type="button" data-bs-toggle="collapse" data-bs-target="#ws-detail-5" aria-expanded="false">
+                                SEE DETAILS <i class="bi bi-chevron-right ms-1"></i>
+                            </button>
+                            <div class="collapse event-details-collapse" id="ws-detail-5">
+                                <p class="mb-0">Hands-on generative AI masterclass covering LLM prompting, RAG architectures, and building web apps using generative AI tools at BITS Hyderabad.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item event-trigger" data-title="AIML Workshop - BITS Hyd" data-date="04-04-2026" data-venue="Techgyan" data-desc="Foundational Artificial Intelligence &amp; Machine Learning workshop covering key algorithms, Python ML packages, and real-world predictive modeling.">
+                            <div class="timeline-dot"></div>
+                            <span class="timeline-date">04-04-2026</span>
+                            <h5 class="timeline-title">AIML Workshop - BITS Hyd</h5>
+                            <p class="timeline-meta"><i class="bi bi-building me-1"></i>Techgyan</p>
+                            <button class="see-details-btn" type="button" data-bs-toggle="collapse" data-bs-target="#ws-detail-6" aria-expanded="false">
+                                SEE DETAILS <i class="bi bi-chevron-right ms-1"></i>
+                            </button>
+                            <div class="collapse event-details-collapse" id="ws-detail-6">
+                                <p class="mb-0">Foundational Artificial Intelligence &amp; Machine Learning workshop covering key algorithms, Python ML packages, and real-world predictive modeling.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item event-trigger" data-title="Felicity 2026 - IIIT Hyd - AI Workshop" data-date="14-02-2026" data-venue="Alence" data-desc="Advanced AI and Deep Learning workshop held during Felicity 2026 at IIIT Hyderabad, focusing on neural network architectures and practical AI implementations.">
+                            <div class="timeline-dot"></div>
+                            <span class="timeline-date">14-02-2026</span>
+                            <h5 class="timeline-title">Felicity 2026 - IIIT Hyd - AI Workshop</h5>
+                            <p class="timeline-meta"><i class="bi bi-building me-1"></i>Alence</p>
+                            <button class="see-details-btn" type="button" data-bs-toggle="collapse" data-bs-target="#ws-detail-7" aria-expanded="false">
+                                SEE DETAILS <i class="bi bi-chevron-right ms-1"></i>
+                            </button>
+                            <div class="collapse event-details-collapse" id="ws-detail-7">
+                                <p class="mb-0">Advanced AI and Deep Learning workshop held during Felicity 2026 at IIIT Hyderabad, focusing on neural network architectures and practical AI implementations.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <button type="button" class="btn btn-primary px-4" onclick="window.location.href='index.html#events'">Back to Home</button>
+            </div>
+        </div>
+    </main>
+
+    <div class="modal fade" id="eventModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content event-detail-card">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="eventTitle"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p id="eventDate" class="fw-bold mb-1"></p>
+                    <p id="eventVenue" class="text-muted mb-3"></p>
+                    <p id="eventDesc" class="mb-0"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const themeToggle = document.getElementById('themeToggle');
+        const sunIcon = themeToggle?.querySelector('.theme-icon-sun');
+        const moonIcon = themeToggle?.querySelector('.theme-icon-moon');
+
+        function setTheme(theme) {
+            if (theme === 'dark') {
+                document.body.classList.add('dark-theme');
+                if (sunIcon && moonIcon) {
+                    sunIcon.style.display = 'none';
+                    moonIcon.style.display = 'inline-block';
+                }
+            } else {
+                document.body.classList.remove('dark-theme');
+                if (sunIcon && moonIcon) {
+                    sunIcon.style.display = 'inline-block';
+                    moonIcon.style.display = 'none';
+                }
+            }
+            localStorage.setItem('portfolio-theme', theme);
+        }
+
+        const savedTheme = localStorage.getItem('portfolio-theme') || 'light';
+        setTheme(savedTheme);
+
+        if (themeToggle) {
+            themeToggle.addEventListener('click', () => {
+                const isDark = document.body.classList.contains('dark-theme');
+                setTheme(isDark ? 'light' : 'dark');
+            });
+        }
+    </script>
+    <script>
+        const modal = new bootstrap.Modal('#eventModal');
+        const title = document.getElementById('eventTitle');
+        const date = document.getElementById('eventDate');
+        const venue = document.getElementById('eventVenue');
+        const desc = document.getElementById('eventDesc');
+
+        document.querySelectorAll('.event-trigger').forEach(e => {
+            e.addEventListener('click', (event) => {
+                if (event.target.closest('.see-details-btn')) return;
+                title.textContent = e.dataset.title;
+                date.textContent = 'Date: ' + e.dataset.date;
+                venue.textContent = 'Organization/Venue: ' + e.dataset.venue;
+                desc.textContent = e.dataset.desc || 'Selected event details displayed above.';
+                modal.show();
+            });
+        });
+    </script>
+</body>
+</html>
