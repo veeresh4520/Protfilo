@@ -811,6 +811,21 @@
                                         </div>
                                     </a>
                                 </div>
+                                <!-- Certificate 9 -->
+                                <div class="col-md-4 mb-4">
+                                    <a href="assets/certificates/LIB.jpg" class="certificate-link" data-src="assets/certificates/LIB.jpg">
+                                        <div class="certificate-card">
+                                            <img src="assets/certificates/LIB.jpg" class="img-fluid" alt="LIB Certificate">
+                                            <div class="certificate-overlay">
+                                                <span class="certificate-view-btn">View</span>
+                                            </div>
+                                        </div>
+                                        <div class="certificate-details">
+                                            <h6 class="certificate-title">LIB Certificate</h6>
+                                            <p class="certificate-issuer">LIB</p>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -825,6 +840,59 @@
             </div>
             <div class="text-center mt-4 reveal">
                 <a href="certificate.html" class="btn btn-primary">View All Certificates</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section class="py-5 reveal" id="awards">
+        <div class="container">
+            <h2 class="section-title text-center reveal">My Awards</h2>
+
+            <div id="awards-gallery">
+                <div id="awardsCarousel" class="carousel slide project-carousel" data-bs-ride="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row justify-content-center">
+                                <div class="col-md-4 mb-4">
+                                    <a href="LIB.jpg" class="certificate-link" data-src="LIB.jpg">
+                                        <div class="certificate-card">
+                                            <img src="LIB.jpg" class="img-fluid" alt="Most Utilized Library User Award">
+                                            <div class="certificate-overlay">
+                                                <span class="certificate-view-btn">View</span>
+                                            </div>
+                                        </div>
+                                        <div class="certificate-details">
+                                            <h6 class="certificate-title">Most Utilized Library User Award</h6>
+                                            <p class="certificate-issuer">KL University Aziz Nagar Central Library<br>12 August 2026</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <a href="SPL.jpg" class="certificate-link" data-src="SPL.jpg">
+                                        <div class="certificate-card">
+                                            <img src="SPL.jpg" class="img-fluid" alt="SPL Head Boy Award">
+                                            <div class="certificate-overlay">
+                                                <span class="certificate-view-btn">View</span>
+                                            </div>
+                                        </div>
+                                        <div class="certificate-details">
+                                            <h6 class="certificate-title">SPL Head Boy Award</h6>
+                                            <p class="certificate-issuer">NEW BLOOM HIGH SCHOOL<br>Date: 06/08/2023</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#awardsCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#awardsCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
             </div>
         </div>
     </section>
@@ -885,6 +953,13 @@
     <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.8.1/plugins/thumbnail/lg-thumbnail.min.js"></script>
     <script>
         lightGallery(document.getElementById("certificates-gallery"), {
+            speed: 500,
+            selector: ".certificate-link",
+            download: true,
+            thumbnail: true,
+            zoom: true
+        });
+        lightGallery(document.getElementById("awards-gallery"), {
             speed: 500,
             selector: ".certificate-link",
             download: true,
